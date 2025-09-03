@@ -5,6 +5,7 @@ void main() {
     theme: ThemeData(useMaterial3: false),
     home: Scaffold(
       floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.clear),
         onPressed: () {
           print('Hi there');
         },
